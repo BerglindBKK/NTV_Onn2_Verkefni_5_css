@@ -1,0 +1,123 @@
+/* Initialiting colors */
+:root {
+    --yellow: #DEC368;
+    --red: #B05040;
+    --darkblue: #2B426E;
+    --white: #D3D6D0;
+    --lightblue: #C3CAD2;
+    --black: #252C18
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 20px;
+    background-color: var(--black);
+}
+
+.yellow1 {
+    background-color: var(--yellow);
+    grid-area: 1/11/3/16;
+}
+
+.yellow2 {
+    background-color: var(--yellow);
+    grid-area: 3/11/7/16;
+}
+
+.yellow3 {
+    background-color: var(--yellow);
+    grid-area: 13/1/17/3;
+}
+
+.red1 {
+    background-color: var(--red);
+    grid-area: 3/3/11/11;
+}
+
+.red2 {
+    background-color: var(--red);
+    grid-area: 13/16/17/17;
+}
+
+.darkblue {
+    background-color: var(--darkblue);
+    grid-area: 13/11/16/16;
+}
+
+.white1 {
+    background-color: var(--white);
+    grid-area: 1/5/3/11;
+}
+
+.white2 {
+    background-color: var(--white);
+    grid-area: 3/1/7/3;
+}
+
+.white3 {
+    background-color: var(--white);
+    grid-area: 7/11/11/13;
+}
+
+.white4 {
+    background-color: var(--white);
+    grid-area: 7/13/11/16;
+}
+
+.white5 {
+    background-color: var(--white);
+    grid-area: 11/11/13/16;
+}
+
+.white6 {
+    background-color: var(--white);
+    grid-area: 16/7/17/11;
+}
+
+.white7 {
+    background-color: var(--white);
+    grid-area: 16/11/17/16;
+}
+
+.lightblue1 {
+    background-color: var(--lightblue);
+    grid-area: 1/1/3/5;
+}
+
+.lightblue2 {
+    background-color: var(--lightblue);
+    grid-area: 1/16/3/17;
+}
+
+.lightblue3 {
+    background-color: var(--lightblue);
+    grid-area: 3/16/13/17;
+}
+
+.lightblue4 {
+    background-color: var(--lightblue);
+    grid-area: 7/1/13/3;
+}
+
+.lightblue5 {
+    background-color: var(--lightblue);
+    grid-area: 11/7/13/11;
+}
+
+.lightblue6 {
+    background-color: var(--lightblue);
+    grid-area: 13/7/15/11;
+}
+
+.lightblue7 {
+    background-color: var(--lightblue);
+    grid-area: 15/3/17/7;
+}
